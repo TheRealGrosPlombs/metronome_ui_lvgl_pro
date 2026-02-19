@@ -41,10 +41,6 @@
  *-------------------*/
 
 /*----------------
- * Global styles
- *----------------*/
-
-/*----------------
  * Fonts
  *----------------*/
 
@@ -79,6 +75,10 @@ const void * img_lvgl_logo;
 extern const void * img_lvgl_logo_data;
 
 /*----------------
+ * Global styles
+ *----------------*/
+
+/*----------------
  * Subjects
  *----------------*/
 
@@ -99,9 +99,6 @@ void metronome_ui_init_gen(const char * asset_path)
 {
     char buf[256];
 
-    /*----------------
-     * Global styles
-     *----------------*/
 
     /*----------------
      * Fonts
@@ -131,6 +128,10 @@ void metronome_ui_init_gen(const char * asset_path)
     img_pause = &img_pause_data;
     img_scale_gradient = &img_scale_gradient_data;
     img_lvgl_logo = &img_lvgl_logo_data;
+
+    /*----------------
+     * Global styles
+     *----------------*/
 
     /*----------------
      * Subjects

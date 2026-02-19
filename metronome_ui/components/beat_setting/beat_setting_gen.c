@@ -8,7 +8,7 @@
  *********************/
 
 #include "beat_setting_gen.h"
-#include "metronome_ui.h"
+#include "../../metronome_ui.h"
 
 /*********************
  *      DEFINES

@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_main_gen.h"
-#include "metronome_ui.h"
+#include "../../metronome_ui.h"
 
 /*********************
  *      DEFINES

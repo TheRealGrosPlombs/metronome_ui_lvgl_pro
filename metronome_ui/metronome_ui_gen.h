@@ -23,6 +23,8 @@ extern "C" {
     #include "lvgl/lvgl.h"
 #endif
 
+
+
 /*********************
  *      DEFINES
  *********************/
@@ -127,14 +129,14 @@ void metronome_ui_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widget and components of this library*/
-#include "widgets/wd_beat_indicator/wd_beat_indicator_gen.h"
+/*Include all the widgets, components and screens of this library*/
 #include "components/beat_dot/beat_dot_gen.h"
 #include "components/beat_setting/beat_setting_gen.h"
 #include "components/bpm_scale/bpm_scale_gen.h"
 #include "components/bpm_stepper/bpm_stepper_gen.h"
 #include "components/tap_area/tap_area_gen.h"
 #include "screens/screen_main/screen_main_gen.h"
+#include "widgets/wd_beat_indicator/wd_beat_indicator_gen.h"
 
 #ifdef __cplusplus
 } /*extern "C"*/

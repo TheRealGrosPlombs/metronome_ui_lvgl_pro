@@ -20,7 +20,7 @@ extern "C" {
     #include "lvgl/lvgl.h"
 #endif
 
-#include "metronome_ui_gen.h"
+#include "../../metronome_ui_gen.h"
 
 /*********************
  *      DEFINES

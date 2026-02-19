@@ -21,11 +21,16 @@ extern "C" {
  *      DEFINES
  *********************/
 
+#ifndef WD_BEAT_INDICATOR_USER_DATA
+#define WD_BEAT_INDICATOR_USER_DATA
+#endif
+
 /**********************
  *      TYPEDEFS
  **********************/
 typedef struct {
     lv_obj_t obj;  /* Base widget to extend */
+    WD_BEAT_INDICATOR_USER_DATA
 } wd_beat_indicator_t;
 
 extern const lv_obj_class_t wd_beat_indicator_class;

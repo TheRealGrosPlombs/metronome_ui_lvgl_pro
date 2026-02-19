@@ -9,7 +9,7 @@
 
 #include "wd_beat_indicator_private_gen.h"
 #include "lvgl/src/core/lv_obj_class_private.h"
-#include "metronome_ui.h"
+#include "../../metronome_ui.h"
 
 /*********************
  *      DEFINES

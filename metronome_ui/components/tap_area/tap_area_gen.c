@@ -8,7 +8,7 @@
  *********************/
 
 #include "tap_area_gen.h"
-#include "metronome_ui.h"
+#include "../../metronome_ui.h"
 
 /*********************
  *      DEFINES

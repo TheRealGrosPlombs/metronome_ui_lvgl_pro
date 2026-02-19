@@ -8,9 +8,12 @@
  *********************/
 
 #include "wd_beat_indicator_gen.h"
-#include "lvgl/src/others/xml/parsers/lv_xml_obj_parser.h"
-#include "lvgl/src/others/xml/lv_xml_widget.h"
-#include "lvgl/src/others/xml/lv_xml_parser.h"
+
+#ifdef LV_LVGL_H_INCLUDE_SIMPLE
+    #include "src/lvgl_private.h"
+#else
+    #include "lvgl/src/lvgl_private.h"
+#endif
 
 #if LV_USE_XML
 
